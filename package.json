@@ -1,6 +1,6 @@
 {
   "name": "hubot-sonos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Control your sonos device with hubot",
   "main": "index.coffee",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/markhuge/hubot-sonos/issues"
   },
-  "homepage": "https://github.com/markhuge/hubot-sonos"
+  "homepage": "https://github.com/markhuge/hubot-sonos",
+  "dependencies": {
+    "sonos": "^0.7.0"
+  }
 }
